@@ -21,7 +21,7 @@ char aluno [30]= ("caio");
 char nome [30];	
 // variaveis
 
-// iremis tentar algo novo com uma estrutura de repeticao
+// iremos tentar algo novo com uma estrutura de repeticao
 
 do{
 	printf ("****************seja bem vindo a escola maos que movem o manha****************");
