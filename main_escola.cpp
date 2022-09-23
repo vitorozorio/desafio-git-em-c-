@@ -11,8 +11,8 @@ em portugol studio.  */
 /*$$$$$$$$$$$$$$$*/
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-float calculo_media () {
-	float nota1, nota2, nota3, nota4, media;
+float calculo_media (*media) {
+	float nota1, nota2, nota3, nota4;
         printf ("\ninsira as notas ");
         printf ("\nnota1 :");
         scanf ("%f", &nota1 );
@@ -24,6 +24,7 @@ float calculo_media () {
         scanf ("%f", &nota4 );
         media = ( nota1 + nota2 + nota3 + nota4 ) / 4;
         printf ( "\nmedia final :%.2f", media );
+        return media; 
 }
 int main(int argc, char** argv) {
 //variaveis
@@ -42,7 +43,7 @@ int main(int argc, char** argv) {
 		case 1:
 			printf ("\nola, seja bem vindo a nossa escola");
 			printf ("\ninsira seu login:");
-			scanf ("%d", s&login);
+			scanf ("%d", &login);
 			printf ("\ninsira sua senha:");
 			scanf ("%d", &senha);
 			if ((login==44) && (senha==333)) {
@@ -54,7 +55,7 @@ int main(int argc, char** argv) {
 					case 1:
 					// função media
 					//float calculo_media();
-					calculo_media();
+					calculo_media(media);
 					break;
                     // fim do programa
 					case 2:
@@ -83,7 +84,7 @@ int main(int argc, char** argv) {
 				case 1:
 				// função media
 				//float calculo_media();
-				calculo_media();
+				calculo_media(media);
 				break;
 				// aqui nos cadastramos um novo aluno
 			    case 2:
