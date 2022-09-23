@@ -61,17 +61,17 @@ int main(int argc, char** argv) {
 				scanf ("%d", &opcao);
 				switch (opcao) {
 					case 1:
-						// função media
-						float calculo_media();
-						calculo_media();
-						break;
-
+					// função media
+					float calculo_media();
+					calculo_media();
+					break;
+                    // fim do programa
 					case 2:
-						printf ("\nok!!!");
-						break;
+					printf ("\nok!!!");
+					break;
 				}
 			}
-			break;
+		break;
 			// login e senha do professor
 		case 2:
 			printf ("\ninsira seu login e senha");
@@ -85,26 +85,26 @@ int main(int argc, char** argv) {
 				printf ("\n1 para calcular media\n2 para cadastrar um novo aluno\n");
 				scanf ("%d",&opcao);
 				switch (opcao) {
-						// aqui calculamos a media
-					case 1:
-						// função media
-						float calculo_media();
-						calculo_media();
-						break;
-						// aqui nos cadastramos um novo aluno
-					case 2:
-						printf ("\ninsira os dados do aluno\n");
-						printf ("nome:");
-						scanf ("%s", &nome);
-						printf ("\nturma:");
-						scanf ("%d", &turma);
-						printf ("o'a aluno'a %s",nome);
-						printf (" faz parte da turma ");
-						printf ("%d",turma);
-						break;
+				// aqui calculamos a media
+				case 1:
+				// função media
+				float calculo_media();
+				calculo_media();
+				break;
+				// aqui nos cadastramos um novo aluno
+			    case 2:
+				printf ("\ninsira os dados do aluno\n");
+				printf ("nome:");
+				scanf ("%s", &nome);
+				printf ("\nturma:");
+				scanf ("%d", &turma);
+				printf ("o'a aluno'a %s",nome);
+				printf (" faz parte da turma ");
+				printf ("%d",turma);
+				break;
 				}
 			}
-			break;
+		break;
 
 	}    /*tive algumas dificuldades em relação a grande diferença entre a sintax do portugol e da linguagem c.
        A logica tambem tem uma grande diferença, porem com a tentativa e erro e com a ajuda dos material da
