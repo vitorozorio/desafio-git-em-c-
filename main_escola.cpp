@@ -11,18 +11,20 @@ em portugol studio.  */
 /*$$$$$$$$$$$$$$$*/
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-int calculo_media () {
-	float med[4];
-	float media, soma = 0;
-	int contador;
-
-	for (contador =0; contador<= 3; contador++) {
-		printf ("\ninforme a %da. nota :", contador + 1);
-		scanf ("%a", &med[contador]);
-		soma += med[contador];
-	}
-	media = soma/4;
-	printf ("\na nota final do aluno vale a: %6.2f\n\n", media);
+float calculo_media () {
+	float nota1, nota2, nota3, nota4, media;
+    printf ("\ninsira as notas ");
+    printf ("\nnota1 :");
+    scanf ("%f", &nota1);
+    printf ("\nnota2 :");
+    scanf ("%f", &nota2);
+    printf ("\nnota3 :");
+    scanf ("%f", &nota3);
+    printf ("\nnota4 :");
+    scanf ("%f", &nota4);
+    media = (nota1 + nota2 + nota3 + nota4)/4;
+    
+    printf ("\nmedia final :%f", media);
 }
 
 int main(int argc, char** argv) {
@@ -60,7 +62,7 @@ int main(int argc, char** argv) {
 				switch (opcao) {
 					case 1:
 						// função media
-						int calculo_media();
+						float calculo_media();
 						calculo_media();
 						break;
 
@@ -86,7 +88,7 @@ int main(int argc, char** argv) {
 						// aqui calculamos a media
 					case 1:
 						// função media
-						int calculo_media();
+						float calculo_media();
 						calculo_media();
 						break;
 						// aqui nos cadastramos um novo aluno
