@@ -13,18 +13,17 @@ em portugol studio.  */
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 float calculo_media () {
 	float nota1, nota2, nota3, nota4, media;
-    printf ("\ninsira as notas ");
-    printf ("\nnota1 :");
-    scanf ("%f", &nota1);
-    printf ("\nnota2 :");
-    scanf ("%f", &nota2);
-    printf ("\nnota3 :");
-    scanf ("%f", &nota3);
-    printf ("\nnota4 :");
-    scanf ("%f", &nota4);
-    media = (nota1 + nota2 + nota3 + nota4)/4;
-    
-    printf ("\nmedia final :%f", media);
+        printf ("\ninsira as notas ");
+        printf ("\nnota1 :");
+        scanf ("%f", &nota1);
+        printf ("\nnota2 :");
+        scanf ("%f", &nota2);
+        printf ("\nnota3 :");
+        scanf ("%f", &nota3);
+        printf ("\nnota4 :");
+        scanf ("%f", &nota4);
+        media = (nota1 + nota2 + nota3 + nota4)/4;
+        printf ("\nmedia final :%f", media);
 }
 
 int main(int argc, char** argv) {
