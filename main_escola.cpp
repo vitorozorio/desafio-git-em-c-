@@ -11,7 +11,7 @@ em portugol studio.  */
 /*$$$$$$$$$$$$$$$*/
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-float calculo_media (*media) {
+float calculo_media (float *media) {
 	float nota1, nota2, nota3, nota4;
         printf ("\ninsira as notas ");
         printf ("\nnota1 :");
