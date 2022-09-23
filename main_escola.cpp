@@ -34,18 +34,11 @@ int main(int argc, char** argv) {
 	char aluno [30]= ("caio");
 	char nome [30];
 // variaveis
-
-// iremos tentar algo novo com uma estrutura de repeticao
-
-	do {
 		printf ("****************seja bem vindo a escola maos que movem o manha****************");
 		printf ("\n\nescolha uma opcao");
 		printf ("\n1 se sou aluno\n2 se sou professor\n");
 		scanf ("%d",&opcao);
-	}  while ((opcao<1) && (opcao>2));
-
 // aqui entraremos com os outros dados usando switch case
-
 	switch (opcao) {
 			// login e senha do aluno
 		case 1:
@@ -70,6 +63,9 @@ int main(int argc, char** argv) {
 					printf ("\nok!!!");
 					break;
 				}
+			} 
+			else {
+				printf ("\n ERRO!!!");
 			}
 		break;
 			// login e senha do professor
@@ -103,6 +99,9 @@ int main(int argc, char** argv) {
 				printf ("%d",turma);
 				break;
 				}
+			}
+			else {
+		        printf ("\n ERRO!!!");
 			}
 		break;
 
