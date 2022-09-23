@@ -15,20 +15,19 @@ float calculo_media () {
 	float nota1, nota2, nota3, nota4, media;
         printf ("\ninsira as notas ");
         printf ("\nnota1 :");
-        scanf ("%f", &nota1);
-        printf ("\nnota2 :");
-        scanf ("%f", &nota2);
-        printf ("\nnota3 :");
-        scanf ("%f", &nota3);
-        printf ("\nnota4 :");
-        scanf ("%f", &nota4);
-        media = (nota1 + nota2 + nota3 + nota4)/4;
-        printf ("\nmedia final :%f", media);
+        scanf ("%f", &nota1 );
+        printf ("\nnota2 :" );
+        scanf ("%f", &nota2 );
+        printf ("\nnota3 :" );
+        scanf ("%f", &nota3 );
+        printf ("\nnota4 :" );
+        scanf ("%f", &nota4 );
+        media = ( nota1 + nota2 + nota3 + nota4 ) / 4;
+        printf ( "\nmedia final :%.2f", media );
 }
-
 int main(int argc, char** argv) {
 //variaveis
-	int opcao,login,senha,turma;
+	int opcao, login, senha, turma;
 	char professor[30]= ("vitor");
 	char aluno [30]= ("caio");
 	char nome [30];
@@ -43,7 +42,7 @@ int main(int argc, char** argv) {
 		case 1:
 			printf ("\nola, seja bem vindo a nossa escola");
 			printf ("\ninsira seu login:");
-			scanf ("%d",&login);
+			scanf ("%d", s&login);
 			printf ("\ninsira sua senha:");
 			scanf ("%d", &senha);
 			if ((login==44) && (senha==333)) {
@@ -54,7 +53,7 @@ int main(int argc, char** argv) {
 				switch (opcao) {
 					case 1:
 					// função media
-					float calculo_media();
+					//float calculo_media();
 					calculo_media();
 					break;
                     // fim do programa
@@ -83,7 +82,7 @@ int main(int argc, char** argv) {
 				// aqui calculamos a media
 				case 1:
 				// função media
-				float calculo_media();
+				//float calculo_media();
 				calculo_media();
 				break;
 				// aqui nos cadastramos um novo aluno
