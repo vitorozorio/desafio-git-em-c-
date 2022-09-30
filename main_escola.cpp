@@ -1,9 +1,9 @@
 #include <iostream>
-/* estou dando inicio a um novo desafio. nesse novo projeto eu irei criar uma nova vers„o
-do desafio git "escola m„os que movem o amanh„". o codigo sera inteiramente baseado em sua vers„o inicial escrita
+/* estou dando inicio a um novo desafio. nesse novo projeto eu irei criar uma nova vers√£o
+do desafio git "escola m√£os que movem o amanh√£". o codigo sera inteiramente baseado em sua vers√£o inicial escrita
 em portugol studio.  */
 
-/*dev zori na ·rea*/
+/*dev zori na √°rea*/
 /*$$$$$$$$$$$$$$$*/
 /*$$$$$$$$$$$$$$$*/
 /*$$$$$$$$$$$$$$$*/
@@ -43,9 +43,9 @@ do {
 		printf ("\n\nescolha uma opcao");
 		printf ("\n1 se sou aluno\n2 se sou professor\n");
 		scanf ("%d",&opcao);
-     // aqui entraremos com os outros dados usando switch case
-	 switch (opcao) {
-        // login e senha do aluno
+ // aqui entraremos com os outros dados usando switch case
+	        switch (opcao) {
+                // login e senha do aluno
 		case 1:
 			printf ("\n--------------------------------\n");
 			printf ("\nola, seja bem vindo a nossa escola");
@@ -61,10 +61,10 @@ do {
 				scanf ("%d", &opcao);
 				switch (opcao) {
 					case 1:
-					// funÁ„o media
+					// fun√ß√£o media
 					calculo_media();
 					break;
-                    // fim do programa
+                                        // fim do programa
 					case 2:
 					printf ("\nok!!!");
 					break;
@@ -75,7 +75,7 @@ do {
 				printf ("ERRO!!!");
 			}
 		 break;
-			// login e senha do professor
+		 // login e senha do professor
 		 case 2:
 			 printf ("\n--------------------------------\n");
 			 printf ("\ninsira seu login e senha");
@@ -92,12 +92,12 @@ do {
 				switch (opcao) {
 				// aqui calculamos a media
 				case 1:
-				// funÁ„o media
+				// fun√ß√£o media
 				calculo_media();
 				break;
 				// aqui nos cadastramos um novo aluno
-			    case 2:
-			    printf ("\n--------------------------------\n");	
+			        case 2:
+			        printf ("\n--------------------------------\n");	
 				printf ("\ninsira os dados do aluno\n");
 				printf ("nome:");
 				scanf ("%s", &nome);
@@ -110,8 +110,8 @@ do {
 				}
 			 }
 			 else {
-				printf ("\n--------------------------------\n");
-		        printf ("ERRO!!!");
+		             printf ("\n--------------------------------\n");
+		             printf ("ERRO!!!");
 			 }
 		 break;	  
 		 }  //estrutura de retorno 
