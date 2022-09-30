@@ -51,7 +51,7 @@ do {
 			printf ("\nola, seja bem vindo a nossa escola");
 			printf ("\ninsira seu login:");
 			scanf ("%d", &login);
-			printf ("\ninsira sua senha:");
+			printf ("insira sua senha:");
 			scanf ("%d", &senha);
 			if ((login == 44) && (senha == 333)) {
 				printf ("\n--------------------------------\n");
@@ -81,7 +81,7 @@ do {
 			 printf ("\ninsira seu login e senha");
 			 printf ("\ninsira seu login:");
 			 scanf ("%d",&login);
-			 printf ("\ninsira sua senha:");
+			 printf ("insira sua senha:");
 			 scanf ("%d", &senha);
 			 if ((login == 22) && (senha == 2002)) {
 				printf ("\n--------------------------------\n");
@@ -101,7 +101,7 @@ do {
 				printf ("\ninsira os dados do aluno\n");
 				printf ("nome:");
 				scanf ("%s", &nome);
-				printf ("\nturma:");
+				printf ("turma:");
 				scanf ("%d", &turma);
 				printf ("o'a aluno'a %s",nome);
 				printf (" faz parte da turma ");
@@ -114,7 +114,7 @@ do {
 		        printf ("ERRO!!!");
 			 }
 		 break;	  
-		 }  
+		 }  //estrutura de retorno 
 	      printf ("\n--------------------------------\n");
 	      printf ("\ndeseja voltar 0 \ndeseja encerrar 1\n");
    	      printf ("\nescolha uma opcao :");
